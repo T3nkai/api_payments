@@ -1,0 +1,32 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "um gateway para pagamento atraves de recursos http.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "cluster": "nodemon cluster.js"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "Leandro Dias",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "memcached": "^2.2.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.3",
+    "restify-clients": "^2.6.9",
+    "soap": "^0.31.0",
+    "winston": "^3.2.1"
+  }
+}

@@ -1,0 +1,4 @@
+{"message":"processing a request for a new payment","level":"info"}
+{"message":"payment being created.....","level":"info"}
+{"message":"payment saved in cache","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/May/2020:02:13:33 +0000] \"POST /payments/payment HTTP/1.1\" 201 510\n","level":"info"}
